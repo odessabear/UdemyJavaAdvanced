@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc4f544c-c52b-4377-ac81-c0c1e5d3b3ef" name="Default" comment="producer-consumer lesson part1">
-      <change afterPath="$PROJECT_DIR$/src/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReentrantLockTest.java" afterDir="false" />
+    <list default="true" id="fc4f544c-c52b-4377-ac81-c0c1e5d3b3ef" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SemaphoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReentrantLockTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReentrantLockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReentrantLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -74,6 +73,20 @@
                 <element signature="e#436#437#0" expanded="true" />
                 <element signature="e#895#896#0" expanded="true" />
                 <element signature="e#931#932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SemaphoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/ConsumerProducerWithWaitAndNotify.java" />
         <option value="$PROJECT_DIR$/src/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/src/ReentrantLockTest.java" />
+        <option value="$PROJECT_DIR$/src/SemaphoreTest.java" />
       </list>
     </option>
   </component>
@@ -127,6 +141,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -1688,7 +1708,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockTest">
+  <component name="RunManager" selected="Application.SemaphoreTest">
     <configuration name="ConsumerProducerWithWaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsumerProducerWithWaitAndNotify" />
       <module name="JavaAdvanced" />
@@ -1701,8 +1721,8 @@
       <option name="MAIN_CLASS_NAME" value="ReentrantLockTest" />
       <module name="JavaAdvanced" />
     </configuration>
-    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPoolTest" />
+    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SemaphoreTest" />
       <module name="JavaAdvanced" />
     </configuration>
     <configuration name="WaitAndNotifyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1710,19 +1730,19 @@
       <module name="JavaAdvanced" />
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadPoolTest" />
       <item itemvalue="Application.WaitAndNotifyTest" />
       <item itemvalue="Application.ConsumerProducerWithWaitAndNotify" />
       <item itemvalue="Application.CountDownLatchTest" />
       <item itemvalue="Application.ReentrantLockTest" />
+      <item itemvalue="Application.SemaphoreTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreTest" />
         <item itemvalue="Application.ReentrantLockTest" />
         <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.ConsumerProducerWithWaitAndNotify" />
         <item itemvalue="Application.WaitAndNotifyTest" />
-        <item itemvalue="Application.ThreadPoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1789,11 +1809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532007016081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="thread classes lessons">
+      <created>1532550868435</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532550868435</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62449000" />
+    <option name="totallyTimeSpent" value="65098000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1808,34 +1835,34 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49938875" weight="0.3290461" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="12" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015175" side_tool="true" visible="true" weight="0.2864675" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="15" weight="0.32928678" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848256" visible="true" weight="0.2864675" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848256" visible="true" weight="0.2864675" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49938875" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49938875" weight="0.3290461" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.26403642" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.25977996" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="13" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.25977996" />
       <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.25977996" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1847,15 +1874,15 @@
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.28724545" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="14" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout>
   </component>
@@ -1872,7 +1899,8 @@
     <MESSAGE value="volatile and synchronized lessons" />
     <MESSAGE value="threadpool lesson" />
     <MESSAGE value="producer-consumer lesson part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="producer-consumer lesson part1" />
+    <MESSAGE value="thread classes lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread classes lessons" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Person.java">
@@ -2065,6 +2093,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2072,6 +2104,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="9" selection-start-line="22" selection-start-column="29" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2079,6 +2114,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2131,6 +2169,18 @@
             <element signature="e#436#437#0" expanded="true" />
             <element signature="e#895#896#0" expanded="true" />
             <element signature="e#931#932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
           </folding>
         </state>
       </provider>
