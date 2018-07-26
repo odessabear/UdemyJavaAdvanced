@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc4f544c-c52b-4377-ac81-c0c1e5d3b3ef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SemaphoreTest.java" afterDir="false" />
+    <list default="true" id="fc4f544c-c52b-4377-ac81-c0c1e5d3b3ef" name="Default" comment="producer-consumer lesson part2">
+      <change afterPath="$PROJECT_DIR$/src/CallableFutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeadLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterruptThreadsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,35 +25,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2400" />
+          <entry key="java" value="3533" />
           <entry key="txt" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2400" />
+          <entry key="JAVA" value="3533" />
           <entry key="PLAIN_TEXT" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="31" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountDownLatchTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CountDownLatchTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CallableFutureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="510">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,34 +61,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReentrantLockTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReentrantLockTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DeadLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="1530">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SemaphoreTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterruptThreadsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -133,6 +133,9 @@
         <option value="$PROJECT_DIR$/src/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/src/ReentrantLockTest.java" />
         <option value="$PROJECT_DIR$/src/SemaphoreTest.java" />
+        <option value="$PROJECT_DIR$/src/DeadLockTest.java" />
+        <option value="$PROJECT_DIR$/src/InterruptThreadsTest.java" />
+        <option value="$PROJECT_DIR$/src/CallableFutureTest.java" />
       </list>
     </option>
   </component>
@@ -148,1382 +151,357 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
-      <dailyData date="16-7-2018">
-        <observation name="false" value="99,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="false" value="87,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="false" value="187,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="false" value="122,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="false" value="122,0" />
+      <dailyData date="26-7-2018">
+        <observation name="false" value="280,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="29,0" />
-        <observation name="false" value="70,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="24,0" />
-        <observation name="false" value="63,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="39,0" />
-        <observation name="false" value="148,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="22,0" />
-        <observation name="false" value="100,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="24,0" />
-        <observation name="false" value="98,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="49,0" />
+        <observation name="false" value="231,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
-      <dailyData date="16-7-2018">
-        <observation name="false" value="99,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="false" value="87,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="false" value="186,0" />
+      <dailyData date="26-7-2018">
+        <observation name="false" value="279,0" />
         <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="false" value="122,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="false" value="122,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
-      <dailyData date="16-7-2018">
-        <observation name="0" value="34,0" />
-        <observation name="UNDEFINED" value="65,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="0" value="23,0" />
-        <observation name="UNDEFINED" value="64,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="0" value="59,0" />
-        <observation name="UNDEFINED" value="128,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="0" value="34,0" />
-        <observation name="UNDEFINED" value="88,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="0" value="35,0" />
-        <observation name="UNDEFINED" value="87,0" />
+      <dailyData date="26-7-2018">
+        <observation name="0" value="92,0" />
+        <observation name="UNDEFINED" value="188,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="13,0" />
-        <observation name="true" value="65,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="false" value="18,0" />
-        <observation name="true" value="52,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="64,0" />
-        <observation name="true" value="102,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="false" value="43,0" />
-        <observation name="true" value="66,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="43,0" />
-        <observation name="true" value="67,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="false" value="85,0" />
+        <observation name="true" value="162,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="38,0" />
-        <observation name="true" value="40,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="false" value="44,0" />
-        <observation name="true" value="26,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="114,0" />
-        <observation name="true" value="52,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="false" value="84,0" />
-        <observation name="true" value="25,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="81,0" />
-        <observation name="true" value="29,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="false" value="152,0" />
+        <observation name="true" value="95,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="38,0" />
-        <observation name="true" value="40,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="false" value="44,0" />
-        <observation name="true" value="26,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="114,0" />
-        <observation name="true" value="52,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="false" value="84,0" />
-        <observation name="true" value="25,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="81,0" />
-        <observation name="true" value="29,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="false" value="152,0" />
+        <observation name="true" value="95,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="38,0" />
-        <observation name="true" value="40,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="false" value="44,0" />
-        <observation name="true" value="26,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="114,0" />
-        <observation name="true" value="52,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="false" value="84,0" />
-        <observation name="true" value="25,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="81,0" />
-        <observation name="true" value="29,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="false" value="152,0" />
+        <observation name="true" value="95,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="53,0" />
-        <observation name="true" value="25,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="false" value="44,0" />
-        <observation name="true" value="26,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="116,0" />
-        <observation name="true" value="50,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="false" value="68,0" />
-        <observation name="true" value="41,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="72,0" />
-        <observation name="true" value="38,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="false" value="180,0" />
+        <observation name="true" value="67,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
-      <dailyData date="16-7-2018">
-        <observation name="false" value="86,0" />
-        <observation name="true" value="13,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="false" value="77,0" />
-        <observation name="true" value="10,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="false" value="179,0" />
-        <observation name="true" value="8,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="false" value="116,0" />
-        <observation name="true" value="6,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="false" value="116,0" />
-        <observation name="true" value="6,0" />
+      <dailyData date="26-7-2018">
+        <observation name="false" value="265,0" />
+        <observation name="true" value="15,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
-      <dailyData date="16-7-2018">
-        <observation name="NORMAL" value="78,0" />
-        <observation name="UNDEFINED" value="21,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="NORMAL" value="70,0" />
-        <observation name="UNDEFINED" value="17,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="NORMAL" value="166,0" />
-        <observation name="UNDEFINED" value="21,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="NORMAL" value="109,0" />
-        <observation name="UNDEFINED" value="13,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="NORMAL" value="110,0" />
-        <observation name="UNDEFINED" value="12,0" />
+      <dailyData date="26-7-2018">
+        <observation name="NORMAL" value="247,0" />
+        <observation name="UNDEFINED" value="33,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="expected" value="25,0" />
-        <observation name="maybeExpected" value="6,0" />
-        <observation name="normal" value="47,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="expected" value="14,0" />
-        <observation name="maybeExpected" value="5,0" />
-        <observation name="normal" value="51,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="expected" value="35,0" />
-        <observation name="maybeExpected" value="16,0" />
-        <observation name="normal" value="114,0" />
-        <observation name="ofDefaultType" value="1,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="expected" value="20,0" />
-        <observation name="maybeExpected" value="8,0" />
-        <observation name="normal" value="81,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="expected" value="22,0" />
-        <observation name="maybeExpected" value="9,0" />
-        <observation name="normal" value="78,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="expected" value="63,0" />
+        <observation name="maybeExpected" value="17,0" />
+        <observation name="normal" value="166,0" />
         <observation name="ofDefaultType" value="1,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="classNameOrGlobalStatic" value="18,0" />
-        <observation name="expectedTypeArgument" value="1,0" />
-        <observation name="expectedTypeVariable" value="9,0" />
-        <observation name="normal" value="32,0" />
-        <observation name="variable" value="18,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="classNameOrGlobalStatic" value="17,0" />
-        <observation name="expectedTypeVariable" value="2,0" />
-        <observation name="normal" value="33,0" />
-        <observation name="variable" value="18,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="classNameOrGlobalStatic" value="36,0" />
-        <observation name="expectedTypeVariable" value="5,0" />
-        <observation name="normal" value="91,0" />
-        <observation name="probableKeyword" value="4,0" />
-        <observation name="variable" value="30,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="classNameOrGlobalStatic" value="25,0" />
-        <observation name="expectedTypeConstant" value="1,0" />
-        <observation name="expectedTypeVariable" value="2,0" />
-        <observation name="normal" value="64,0" />
-        <observation name="probableKeyword" value="2,0" />
-        <observation name="variable" value="15,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="classNameOrGlobalStatic" value="20,0" />
-        <observation name="expectedTypeVariable" value="3,0" />
-        <observation name="normal" value="62,0" />
-        <observation name="probableKeyword" value="2,0" />
-        <observation name="suitableClass" value="3,0" />
-        <observation name="variable" value="20,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="classNameOrGlobalStatic" value="45,0" />
+        <observation name="expectedTypeVariable" value="22,0" />
+        <observation name="normal" value="120,0" />
+        <observation name="probableKeyword" value="10,0" />
+        <observation name="suitableClass" value="1,0" />
+        <observation name="variable" value="49,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="unknown" value="78,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="unknown" value="70,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="unknown" value="166,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="unknown" value="109,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="unknown" value="110,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="unknown" value="247,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="18,0" />
-        <observation name="null" value="59,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="false" value="17,0" />
-        <observation name="null" value="53,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="false" value="32,0" />
-        <observation name="null" value="130,0" />
-        <observation name="true" value="4,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="false" value="24,0" />
-        <observation name="null" value="84,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="23,0" />
-        <observation name="null" value="87,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="false" value="44,0" />
+        <observation name="null" value="201,0" />
+        <observation name="true" value="2,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="unknown" value="78,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="applicableByKind" value="2,0" />
-        <observation name="unknown" value="68,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="applicableByKind" value="1,0" />
-        <observation name="unknown" value="165,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="applicableByKind" value="1,0" />
-        <observation name="unknown" value="108,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="applicableByKind" value="3,0" />
-        <observation name="unknown" value="107,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="unknown" value="247,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="38,0" />
-        <observation name="normal" value="61,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="32,0" />
-        <observation name="normal" value="55,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="73,0" />
-        <observation name="delegation" value="1,0" />
-        <observation name="normal" value="111,0" />
-        <observation name="recursive" value="2,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="54,0" />
-        <observation name="normal" value="68,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="46,0" />
-        <observation name="normal" value="76,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="90,0" />
+        <observation name="normal" value="190,0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
-      <dailyData date="16-7-2018">
-        <observation name="cancelled" value="50,0" />
-        <observation name="explicitSelect" value="96,0" />
-        <observation name="typedSelect" value="3,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="cancelled" value="169,0" />
-        <observation name="explicitSelect" value="80,0" />
-        <observation name="typedSelect" value="7,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="cancelled" value="189,0" />
-        <observation name="explicitSelect" value="169,0" />
-        <observation name="typedSelect" value="18,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="cancelled" value="139,0" />
-        <observation name="explicitSelect" value="114,0" />
-        <observation name="typedSelect" value="8,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="cancelled" value="175,0" />
-        <observation name="explicitSelect" value="121,0" />
-        <observation name="typedSelect" value="1,0" />
+      <dailyData date="26-7-2018">
+        <observation name="cancelled" value="353,0" />
+        <observation name="explicitSelect" value="252,0" />
+        <observation name="typedSelect" value="28,0" />
       </dailyData>
     </factor>
     <factor id="completionType">
-      <dailyData date="16-7-2018">
-        <observation name="BASIC" value="105,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="BASIC" value="91,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="BASIC" value="197,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="BASIC" value="129,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="BASIC" value="131,0" />
+      <dailyData date="26-7-2018">
+        <observation name="BASIC" value="296,0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
-      <dailyData date="16-7-2018">
-        <observation name="count" value="149,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="count" value="256,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="count" value="376,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="count" value="261,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="count" value="297,0" />
+      <dailyData date="26-7-2018">
+        <observation name="count" value="633,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
-      <dailyData date="16-7-2018">
-        <observation name="average" value="0,111675" />
-        <observation name="count" value="197,0" />
+      <dailyData date="26-7-2018">
+        <observation name="average" value="0,157424" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="1,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0611" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="0,115607" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,074473" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="0,123324" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,080545" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="0,131687" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,085993" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="0,090535" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,068869" />
+        <observation name="variance" value="0,103826" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
-      <dailyData date="16-7-2018">
+      <dailyData date="26-7-2018">
         <observation name="average" value="0,0" />
-        <observation name="count" value="197,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="243,0" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="97,0" />
-        <observation name="average" value="-10,333333" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="-10,0" />
-        <observation name="min" value="-11,0" />
-        <observation name="variance" value="0,055556" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="71,0" />
-        <observation name="average" value="-2,419355" />
-        <observation name="count" value="31,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="222,0" />
+        <observation name="average" value="-12,808696" />
+        <observation name="count" value="115,0" />
         <observation name="max" value="0,0" />
-        <observation name="min" value="-12,0" />
-        <observation name="variance" value="10,698085" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="149,0" />
-        <observation name="average" value="-6,973333" />
-        <observation name="count" value="75,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-27,0" />
-        <observation name="variance" value="47,465546" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="98,0" />
-        <observation name="average" value="-7,468085" />
-        <observation name="count" value="47,0" />
-        <observation name="max" value="-1,0" />
-        <observation name="min" value="-18,0" />
-        <observation name="variance" value="26,231683" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="95,0" />
-        <observation name="average" value="-12,735849" />
-        <observation name="count" value="53,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-39,0" />
-        <observation name="variance" value="66,174114" />
+        <observation name="min" value="-50,0" />
+        <observation name="variance" value="133,784854" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="-0,012903" />
-        <observation name="count" value="155,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="average" value="-0,052738" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,01773" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="-0,028777" />
-        <observation name="count" value="139,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,028342" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="-0,012085" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,009035" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="-0,009217" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,01275" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="-0,009132" />
-        <observation name="count" value="219,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,005245" />
+        <observation name="min" value="-2,0" />
+        <observation name="variance" value="0,047855" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
-      <dailyData date="16-7-2018">
-        <observation name="average" value="0,517766" />
-        <observation name="count" value="197,0" />
+      <dailyData date="26-7-2018">
+        <observation name="average" value="0,350626" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="6,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,775781" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="0,213873" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,262602" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="0,268097" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="9,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="1,354614" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="0,255144" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="5,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,597544" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="0,205761" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="5,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,343578" />
+        <observation name="variance" value="0,514851" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
-      <dailyData date="16-7-2018">
-        <observation name="average" value="-969,532995" />
-        <observation name="count" value="197,0" />
+      <dailyData date="26-7-2018">
+        <observation name="average" value="-967,062612" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-1154,0" />
-        <observation name="variance" value="112701,056773" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="-972,624277" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1153,0" />
-        <observation name="variance" value="128243,505187" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="-1039,613941" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1202,0" />
-        <observation name="variance" value="86093,302933" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="-1017,341564" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1154,0" />
-        <observation name="variance" value="104018,930055" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="-989,860082" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1153,0" />
-        <observation name="variance" value="104178,730874" />
+        <observation name="variance" value="129851,177168" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
-      <dailyData date="16-7-2018">
-        <observation name="average" value="-0,040609" />
-        <observation name="count" value="197,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-2,0" />
-        <observation name="variance" value="0,043355" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="-0,011561" />
-        <observation name="count" value="173,0" />
+      <dailyData date="26-7-2018">
+        <observation name="average" value="-0,007156" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,011665" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="-0,021448" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-2,0" />
-        <observation name="variance" value="0,039643" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
+        <observation name="variance" value="0,007476" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="156,774194" />
-        <observation name="count" value="155,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="average" value="124,543611" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="300,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="17798,795621" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="125,179856" />
-        <observation name="count" value="139,0" />
-        <observation name="max" value="300,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="15894,548913" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="109,969789" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="300,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="14856,182158" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="86,635945" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="300,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="12451,613083" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="94,520548" />
-        <observation name="count" value="219,0" />
-        <observation name="max" value="300,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="13441,208338" />
+        <observation name="variance" value="16311,252726" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="1,974194" />
-        <observation name="count" value="155,0" />
-        <observation name="max" value="7,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="5,792165" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="2,467626" />
-        <observation name="count" value="139,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="average" value="1,574037" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="8,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="9,683299" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="1,981873" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="8,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="8,267939" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="2,0553" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="8,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="6,368459" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="1,844749" />
-        <observation name="count" value="219,0" />
-        <observation name="max" value="8,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="7,714447" />
+        <observation name="variance" value="5,959597" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="1,032258" />
-        <observation name="count" value="155,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="average" value="0,770791" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="2,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,82426" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="0,748201" />
-        <observation name="count" value="139,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,772327" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="0,628399" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,710825" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="0,460829" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,585887" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="0,52968" />
-        <observation name="count" value="219,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,642287" />
+        <observation name="variance" value="0,805061" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="0,696774" />
-        <observation name="count" value="155,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="average" value="0,482759" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="2,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,632653" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="0,57554" />
-        <observation name="count" value="139,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,705201" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="0,416918" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,401622" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="0,35023" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,376048" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="0,310502" />
-        <observation name="count" value="219,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,339634" />
+        <observation name="variance" value="0,487343" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
-      <dailyData date="16-7-2018">
+      <dailyData date="26-7-2018">
         <observation name="average" value="0,0" />
-        <observation name="count" value="197,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="243,0" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:result_length">
-      <dailyData date="16-7-2018">
-        <observation name="average" value="5,269036" />
-        <observation name="count" value="197,0" />
-        <observation name="max" value="18,0" />
-        <observation name="min" value="2,0" />
-        <observation name="variance" value="3,538856" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="5,132948" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="10,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="4,214566" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="5,882038" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="28,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="13,912868" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="6,213992" />
-        <observation name="count" value="243,0" />
+      <dailyData date="26-7-2018">
+        <observation name="average" value="6,125224" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="18,0" />
         <observation name="min" value="1,0" />
-        <observation name="variance" value="12,550365" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="6,427984" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="20,0" />
-        <observation name="min" value="2,0" />
-        <observation name="variance" value="12,241115" />
+        <observation name="variance" value="6,764497" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="-0,012903" />
-        <observation name="count" value="155,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="average" value="-0,048682" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,01773" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="-0,028777" />
-        <observation name="count" value="139,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,028342" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="-0,012085" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,009035" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="-0,009217" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,01275" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="219,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
+        <observation name="variance" value="0,033557" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="-12,890323" />
-        <observation name="count" value="155,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
+        <observation name="average" value="-44,551724" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-999,0" />
-        <observation name="variance" value="17694,361343" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="-28,748201" />
-        <observation name="count" value="139,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-999,0" />
-        <observation name="variance" value="28285,34141" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="-12,072508" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-999,0" />
-        <observation name="variance" value="9016,837877" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="-9,207373" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-999,0" />
-        <observation name="variance" value="12724,477112" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="-9,123288" />
-        <observation name="count" value="219,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-999,0" />
-        <observation name="variance" value="5234,369502" />
+        <observation name="variance" value="31915,062804" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="33,0" />
         <observation name="average" value="0,0" />
-        <observation name="count" value="155,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="17,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="139,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="21,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="331,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="13,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="217,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="219,0" />
+        <observation name="count" value="493,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
-      <dailyData date="16-7-2018">
+      <dailyData date="26-7-2018">
         <observation name="average" value="1,0" />
-        <observation name="count" value="197,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="243,0" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="1,0" />
         <observation name="min" value="1,0" />
         <observation name="variance" value="0,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
-      <dailyData date="16-7-2018">
-        <observation name="UNDEFINED" value="82,0" />
-        <observation name="average" value="-3,0" />
-        <observation name="count" value="33,0" />
-        <observation name="max" value="-3,0" />
-        <observation name="min" value="-3,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="UNDEFINED" value="69,0" />
-        <observation name="average" value="-3,342857" />
-        <observation name="count" value="35,0" />
+      <dailyData date="26-7-2018">
+        <observation name="UNDEFINED" value="211,0" />
+        <observation name="average" value="-3,233577" />
+        <observation name="count" value="137,0" />
         <observation name="max" value="-3,0" />
         <observation name="min" value="-5,0" />
-        <observation name="variance" value="0,334409" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="UNDEFINED" value="130,0" />
-        <observation name="average" value="-3,070796" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-5,0" />
-        <observation name="variance" value="0,792662" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="UNDEFINED" value="77,0" />
-        <observation name="average" value="-2,52809" />
-        <observation name="count" value="89,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-5,0" />
-        <observation name="variance" value="1,49128" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="UNDEFINED" value="85,0" />
-        <observation name="average" value="-3,164384" />
-        <observation name="count" value="73,0" />
-        <observation name="max" value="-3,0" />
-        <observation name="min" value="-5,0" />
-        <observation name="variance" value="0,209081" />
+        <observation name="variance" value="0,238335" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
-      <dailyData date="16-7-2018">
-        <observation name="average" value="3095,862944" />
-        <observation name="count" value="197,0" />
+      <dailyData date="26-7-2018">
+        <observation name="average" value="2771,894454" />
+        <observation name="count" value="559,0" />
         <observation name="max" value="10000,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="17187424,737717" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="2484,127168" />
-        <observation name="count" value="173,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="16154280,457922" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="2599,758713" />
-        <observation name="count" value="373,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="16805102,679586" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="3577,27572" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="20042456,898959" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="3907,641975" />
-        <observation name="count" value="243,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="19754203,566921" />
+        <observation name="variance" value="17909501,154874" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
-      <dailyData date="16-7-2018">
-        <observation name="0" value="68,0" />
-        <observation name="1" value="16,0" />
-        <observation name="2" value="6,0" />
-        <observation name="3" value="4,0" />
-        <observation name="5" value="1,0" />
+      <dailyData date="26-7-2018">
+        <observation name="0" value="197,0" />
+        <observation name="1" value="30,0" />
+        <observation name="2" value="13,0" />
+        <observation name="3" value="8,0" />
+        <observation name="4" value="3,0" />
         <observation name="6" value="1,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="0" value="65,0" />
-        <observation name="1" value="11,0" />
-        <observation name="2" value="4,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="0" value="142,0" />
-        <observation name="1" value="14,0" />
-        <observation name="2" value="9,0" />
-        <observation name="3" value="3,0" />
-        <observation name="9" value="1,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="0" value="98,0" />
-        <observation name="1" value="8,0" />
-        <observation name="2" value="4,0" />
-        <observation name="3" value="2,0" />
-        <observation name="4" value="1,0" />
-        <observation name="5" value="1,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="0" value="106,0" />
-        <observation name="1" value="11,0" />
-        <observation name="3" value="3,0" />
-        <observation name="5" value="1,0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
-      <dailyData date="16-7-2018">
-        <observation name="total" value="19,0" />
+      <dailyData date="26-7-2018">
+        <observation name="total" value="72,0" />
         <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="total" value="20,0" />
-        <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="total" value="64,0" />
-        <observation name="withMnemonics" value="1,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="total" value="45,0" />
-        <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="total" value="47,0" />
-        <observation name="withMnemonics" value="1,0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
-      <dailyData date="16-7-2018">
-        <observation name="0" value="14,0" />
-        <observation name="1" value="63,0" />
-        <observation name="2" value="18,0" />
-        <observation name="3" value="1,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="0" value="12,0" />
-        <observation name="1" value="48,0" />
-        <observation name="2" value="16,0" />
-        <observation name="3" value="4,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="0" value="15,0" />
-        <observation name="1" value="90,0" />
-        <observation name="2" value="46,0" />
-        <observation name="3" value="16,0" />
-        <observation name="4" value="1,0" />
-        <observation name="5" value="1,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="0" value="12,0" />
-        <observation name="1" value="57,0" />
-        <observation name="2" value="31,0" />
-        <observation name="3" value="9,0" />
-        <observation name="4" value="2,0" />
-        <observation name="6" value="1,0" />
-        <observation name="8" value="2,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="0" value="15,0" />
-        <observation name="1" value="59,0" />
-        <observation name="2" value="41,0" />
-        <observation name="3" value="6,0" />
+      <dailyData date="26-7-2018">
+        <observation name="0" value="40,0" />
+        <observation name="1" value="140,0" />
+        <observation name="2" value="58,0" />
+        <observation name="3" value="11,0" />
+        <observation name="4" value="3,0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
-      <dailyData date="16-7-2018">
-        <observation name="average" value="195,0" />
-        <observation name="count" value="6,0" />
-      </dailyData>
-      <dailyData date="17-7-2018">
-        <observation name="average" value="821,0" />
-        <observation name="count" value="5,0" />
-      </dailyData>
-      <dailyData date="18-7-2018">
-        <observation name="average" value="720,633333" />
-        <observation name="count" value="30,0" />
-      </dailyData>
-      <dailyData date="19-7-2018">
-        <observation name="average" value="903,945946" />
-        <observation name="count" value="37,0" />
-      </dailyData>
-      <dailyData date="25-7-2018">
-        <observation name="average" value="577,727273" />
-        <observation name="count" value="11,0" />
+      <dailyData date="26-7-2018">
+        <observation name="average" value="967,897436" />
+        <observation name="count" value="39,0" />
       </dailyData>
     </factor>
   </component>
@@ -1536,44 +514,27 @@
         <subPane>
           <expand>
             <path>
-              <item name="UdemyJavaAdvanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyJavaAdvanced" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaAdvanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAdvanced" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="UdemyJavaAdvanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyJavaAdvanced" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyJavaAdvanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyJavaAdvanced" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyJavaAdvanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyJavaAdvanced" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaAdvanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAdvanced" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyJavaAdvanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyJavaAdvanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ConsumerProducerWithWaitAndNotify.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532533414729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532622622080" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -1591,7 +552,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -1599,15 +559,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ConsumerProducerWithWaitAndNotify.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ConsumerTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IterableTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadPoolTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest1.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest2.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest3.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/WaitAndNotifyTest.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -1694,6 +645,716 @@
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="SWITCHED" />
       </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ConsumerProducerWithWaitAndNotify.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ConsumerTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IterableTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadPoolTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest1.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest2.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ThreadTest3.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/WaitAndNotifyTest.java</PATH>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
     </UpdatedFiles>
   </component>
   <component name="RunDashboard">
@@ -1708,41 +1369,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreTest">
-    <configuration name="ConsumerProducerWithWaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConsumerProducerWithWaitAndNotify" />
+  <component name="RunManager" selected="Application.CallableFutureTest">
+    <configuration name="CallableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CallableFutureTest" />
       <module name="JavaAdvanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountDownLatchTest" />
+    <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeadLockTest" />
       <module name="JavaAdvanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterruptThreadsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterruptThreadsTest" />
+      <module name="JavaAdvanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReentrantLockTest" />
       <module name="JavaAdvanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SemaphoreTest" />
       <module name="JavaAdvanced" />
-    </configuration>
-    <configuration name="WaitAndNotifyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WaitAndNotifyTest" />
-      <module name="JavaAdvanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WaitAndNotifyTest" />
-      <item itemvalue="Application.ConsumerProducerWithWaitAndNotify" />
-      <item itemvalue="Application.CountDownLatchTest" />
       <item itemvalue="Application.ReentrantLockTest" />
       <item itemvalue="Application.SemaphoreTest" />
+      <item itemvalue="Application.DeadLockTest" />
+      <item itemvalue="Application.InterruptThreadsTest" />
+      <item itemvalue="Application.CallableFutureTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableFutureTest" />
+        <item itemvalue="Application.InterruptThreadsTest" />
         <item itemvalue="Application.SemaphoreTest" />
+        <item itemvalue="Application.DeadLockTest" />
         <item itemvalue="Application.ReentrantLockTest" />
-        <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.ConsumerProducerWithWaitAndNotify" />
-        <item itemvalue="Application.WaitAndNotifyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1820,7 +1496,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65098000" />
+    <option name="totallyTimeSpent" value="76946000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1832,58 +1508,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="1912" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
-      <window_info anchor="right" id="Palette&#9;" order="12" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015175" side_tool="true" visible="true" weight="0.2864675" />
-      <window_info anchor="right" id="Maven Projects" order="15" weight="0.32928678" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848256" visible="true" weight="0.2864675" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.26403642" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.25977996" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.25977996" />
       <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.25977996" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987775" visible="true" weight="0.28724545" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="Database" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.28724545" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info anchor="right" id="Maven Projects" order="14" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987775" visible="true" weight="0.28724545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49938875" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49938875" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49938875" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.28724545" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1903,100 +1558,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="thread classes lessons" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/HashSet.java" />
-    <entry file="file://$PROJECT_DIR$/src/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashEqualsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2075,20 +1636,6 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/ExecutorService.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java" />
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThreadTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -2120,10 +1667,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConsumerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeadLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterruptThreadsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReentrantLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2132,15 +1720,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WaitAndNotifyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConsumerProducerWithWaitAndNotify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-238">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2149,38 +1747,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CountDownLatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="544">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReentrantLockTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ConsumerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SemaphoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/CallableFutureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="510">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
           </folding>
         </state>
       </provider>
