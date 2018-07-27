@@ -1,3 +1,5 @@
+package collectionsAndThreads;
+
 public class ThreadTest2 {
 
     private int counter;

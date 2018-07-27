@@ -1,3 +1,5 @@
+package collectionsAndThreads;
+
 import java.util.Scanner;
 
 public class ThreadTest1 {

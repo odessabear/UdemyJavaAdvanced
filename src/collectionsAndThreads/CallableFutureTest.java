@@ -1,3 +1,5 @@
+package collectionsAndThreads;
+
 import java.util.Random;
 import java.util.concurrent.*;
 

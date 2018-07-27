@@ -1,4 +1,5 @@
-import java.util.LinkedList;
+package collectionsAndThreads;
+
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 

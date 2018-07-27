@@ -1,3 +1,5 @@
+package collectionsAndThreads;
+
 import java.util.Arrays;
 
 public class MyLinkedList {
